@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400;700&display=swap');
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+    background: radial-gradient(circle at 10% 20%, rgba(20, 20, 20, 1) 0%, rgba(0, 0, 0, 1) 90.2%);
+}
+
+.skill-grid, .tools-grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.skill-header h1, .tools-header h1 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #fff 20%, #444 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+}
+
+.skill-header h1::before, .tools-header h1::before {
+    content: '';
+    width: 4px;
+    height: 40px;
+    background: #fff;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.skill-icons, .tools-icon {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+    gap: 30px;
+    padding: 10px;
+    animation: fadeUp 1s ease-out forwards;
+}
+
+.img-icon {
+    height: 140px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    overflow: hidden;
+}
+
+.img-icon::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.img-icon img {
+    width: 50px;
+    height: 50px;
+    filter: grayscale(0%) opacity(0.8) brightness(1.2);
+    transition: all 0.4s ease;
+    z-index: 2;
+}
+
+.icon-text {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #bbb;
+    margin-top: 12px;
+    opacity: 0.7;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.img-icon:hover {
+    background: rgba(255, 255, 255, 0.07);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-8px);
+}
+
+.img-icon:hover img {
+    transform: scale(1.1);
+}
+
+.img-icon:hover .icon-text {
+    opacity: 1;
+    color: #fff;
+}
+
+.github-icon img {
+    filter: invert(1);
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
