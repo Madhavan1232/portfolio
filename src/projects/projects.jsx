@@ -156,8 +156,8 @@ function Projects() {
             </div>
 
             <div className="action-btn">
-              <button className="live-btn">Live Demo</button>
-              <button className="code-btn">Source Code</button>
+              <button className="live-btn" onClick={() => window.open("https://madhavan1232.github.io/portfolio/")}>Live Demo</button>
+              <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/portfolio")}>Source Code</button>
             </div>
 
           </div>
