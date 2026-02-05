@@ -66,6 +66,15 @@ function Home() {
             <i class="ri-instagram-line icon"></i>
           </a>
         </div>
+        
+        <div className="resumer-container">
+          <a 
+            href="https://github.com/Madhavan1232/resume/raw/main/Resume.pdf"
+            className="resume-btn"
+          >
+            Resume
+          </a>
+        </div>
       </div>
 
       <div className="profile-img">
