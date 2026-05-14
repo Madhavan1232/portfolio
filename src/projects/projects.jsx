@@ -162,6 +162,31 @@ function Projects() {
 
           </div>
         </div>
+        <div className="project-item">
+          <div className="project-card">
+
+            <div className="project-header">
+              <span className="title-line">Banking</span>
+              <span className="title-line second"> Terminal</span>
+              <span className="project-type">Backend</span>
+            </div>
+
+            <p className="project-desc">
+               A simple ATM console application for basic banking operations, built with Java
+            </p>
+
+            <div className="project-techs">
+              <span>SpringBoot</span>
+              <span>SQL</span>
+            </div>
+
+            <div className="action-btn">
+              <button className="live-btn" >API Only</button>
+              <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/ATMConsoleApplication")}>Source Code</button>
+            </div>
+
+          </div>
+        </div>
 
       </div>
     </div>

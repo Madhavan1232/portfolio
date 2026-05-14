@@ -69,7 +69,7 @@ function Home() {
         
         <div className="resumer-container">
           <a 
-            href="https://github.com/Madhavan1232/resume/raw/main/Resume.pdf"
+            href="https://github.com/Madhavan1232/resume/raw/main/Madhavan_Resume.pdf"
             className="resume-btn"
           >
             Resume
