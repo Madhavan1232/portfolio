@@ -2,7 +2,6 @@ import "./home.css";
 import home_bg from "./home-page.png";
 import Typewriter from "typewriter-effect";
 
-
 function Home() {
   return (
     <div className="content">

@@ -64,6 +64,50 @@ function Projects() {
 
           </div>
         </div>
+        <div className="project-item">
+          <div className="project-card">
+
+            <div className="project-header">
+              <span className="title-line">Pixora</span>
+              <span className="title-line second">ImageGallery</span>
+              <span className="project-type">Full Stack</span>
+            </div>
+
+            <p className="project-desc">
+              Pixora is an image gallery application that allows users to upload, download, and manage Images
+            </p>
+
+            <div className="project-techs">
+              <span>React</span>
+              <span>Node JS</span>
+              <span>MySQL</span>
+            </div>
+
+            <div className="action-btn">
+              <button
+                className="live-btn"
+                onClick={() =>
+                  window.open(
+                    "https://pixorafrontend.z29.web.core.windows.net/"
+                  )
+                }
+              >
+                Live Demo
+              </button>
+              <button
+                className="code-btn"
+                onClick={() =>
+                  window.open(
+                    "https://github.com/Madhavan1232/ImageGallery-pixora-"
+                  )
+                }
+              >
+                Source Code
+              </button>
+            </div>
+
+          </div>
+        </div>
 
         <div className="project-item">
           <div className="project-card">
