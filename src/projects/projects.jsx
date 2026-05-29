@@ -24,50 +24,6 @@ function Projects() {
           <div className="project-card">
 
             <div className="project-header">
-              <span className="title-line">Freelancer</span>
-              <span className="title-line second">Marketplace</span>
-              <span className="project-type">Full Stack</span>
-            </div>
-
-            <p className="project-desc">
-              Flexora is a modern freelance platform developed using React, Spring Boot, and MySQL
-            </p>
-
-            <div className="project-techs">
-              <span>React</span>
-              <span>Spring Boot</span>
-              <span>MySQL</span>
-            </div>
-
-            <div className="action-btn">
-              <button
-                className="live-btn"
-                onClick={() =>
-                  window.open(
-                    "https://madhavan1232.github.io/freelance-marketplace/"
-                  )
-                }
-              >
-                Live Demo
-              </button>
-              <button
-                className="code-btn"
-                onClick={() =>
-                  window.open(
-                    "https://github.com/Madhavan1232/freelance-marketplace"
-                  )
-                }
-              >
-                Source Code
-              </button>
-            </div>
-
-          </div>
-        </div>
-        <div className="project-item">
-          <div className="project-card">
-
-            <div className="project-header">
               <span className="title-line">Pixora</span>
               <span className="title-line second">ImageGallery</span>
               <span className="project-type">Full Stack</span>
@@ -108,7 +64,76 @@ function Projects() {
 
           </div>
         </div>
+        <div className="project-item">
+          <div className="project-card">
 
+            <div className="project-header">
+              <span className="title-line">Freelancer</span>
+              <span className="title-line second">Marketplace</span>
+              <span className="project-type">Full Stack</span>
+            </div>
+
+            <p className="project-desc">
+              Flexora is a modern freelance platform developed using React, Spring Boot, and MySQL
+            </p>
+
+            <div className="project-techs">
+              <span>React</span>
+              <span>Spring Boot</span>
+              <span>MySQL</span>
+            </div>
+
+            <div className="action-btn">
+              <button
+                className="live-btn"
+                onClick={() =>
+                  window.open(
+                    "https://madhavan1232.github.io/freelance-marketplace/"
+                  )
+                }
+              >
+                Live Demo
+              </button>
+              <button
+                className="code-btn"
+                onClick={() =>
+                  window.open(
+                    "https://github.com/Madhavan1232/freelance-marketplace"
+                  )
+                }
+              >
+                Source Code
+              </button>
+            </div>
+
+          </div>
+        </div>
+
+        <div className="project-item">
+          <div className="project-card">
+
+            <div className="project-header">
+              <span className="title-line">Banking</span>
+              <span className="title-line second"> Terminal</span>
+              <span className="project-type">Backend</span>
+            </div>
+
+            <p className="project-desc">
+              A simple ATM console application for basic banking operations, built with Java
+            </p>
+
+            <div className="project-techs">
+              <span>SpringBoot</span>
+              <span>SQL</span>
+            </div>
+
+            <div className="action-btn">
+              <button className="live-btn" >API Only</button>
+              <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/ATMConsoleApplication")}>Source Code</button>
+            </div>
+
+          </div>
+        </div>
         <div className="project-item">
           <div className="project-card">
 
@@ -174,59 +199,6 @@ function Projects() {
             <div className="action-btn">
               <button className="live-btn">API Only</button>
               <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/quickfix")}>Source Code</button>
-            </div>
-
-          </div>
-        </div>
-
-        <div className="project-item">
-          <div className="project-card">
-
-            <div className="project-header">
-              <span className="title-line">Personal</span>
-              <span className="title-line second">Portfolio</span>
-              <span className="project-type">Frontend</span>
-            </div>
-
-            <p className="project-desc">
-              A modern React portfolio with smooth animations
-              and a clean premium UI
-            </p>
-
-            <div className="project-techs">
-              <span>React</span>
-              <span>CSS</span>
-              <span>Framer Motion</span>
-            </div>
-
-            <div className="action-btn">
-              <button className="live-btn" onClick={() => window.open("https://madhavan1232.github.io/portfolio/")}>Live Demo</button>
-              <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/portfolio")}>Source Code</button>
-            </div>
-
-          </div>
-        </div>
-        <div className="project-item">
-          <div className="project-card">
-
-            <div className="project-header">
-              <span className="title-line">Banking</span>
-              <span className="title-line second"> Terminal</span>
-              <span className="project-type">Backend</span>
-            </div>
-
-            <p className="project-desc">
-               A simple ATM console application for basic banking operations, built with Java
-            </p>
-
-            <div className="project-techs">
-              <span>SpringBoot</span>
-              <span>SQL</span>
-            </div>
-
-            <div className="action-btn">
-              <button className="live-btn" >API Only</button>
-              <button className="code-btn" onClick={() => window.open("https://github.com/Madhavan1232/ATMConsoleApplication")}>Source Code</button>
             </div>
 
           </div>
